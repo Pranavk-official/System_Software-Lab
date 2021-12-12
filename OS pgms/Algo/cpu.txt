@@ -1,0 +1,82 @@
+FCFS (FIRST COME FIRST SERVE) CPU SCHEDULING
+
+AIM:
+    To write a program to implement the FCFS (First Come First Serve) CPU scheduling Algorithm
+
+ALGORITHM:
+
+    1. START the program
+    2. Get the number of processors
+    3. Get the Burst time of each processors
+    4. Calculation of Turn Around Time and Waiting Time
+        a) tot_TAT = tot_TAT + pre_TAT
+        b) avg_TAT = tot_TAT/num_of_proc
+        c) tot_WT = tot_WT + pre_WT + PRE_BT
+        d) avg_WT = tot_WT/num_of_proc
+        5. Display the result
+        6. STOP the program
+
+
+
+SJF (SHORTEST JOB FIRST) CPU SCHEDULING ALGORITHM
+
+AIM:
+    To write a program to implement the SJF (Shortest Job First) CPU scheduling Algorithm
+
+ALGORITHM:
+
+    1. START the program
+    2. Get the number of processors
+    3. Get the Burst time of each processors
+    4. Sort the processors based on the burst time
+    5. Calculation of Turn Around Time and Waiting Time
+        e) tot_TAT = tot_TAT + pre_TAT
+        f) avg_TAT = tot_TAT/num_of_proc
+        g) tot_WT = tot_WT + pre_WT + PRE_BT
+        h) avg_WT = tot_WT/num_of_proc
+    6. Display the result
+    7. STOP the program
+
+
+PRIORITY CPU SCHEDULING ALGORITHM
+
+AIM:
+    To write a program to implement the Priority CPU scheduling Algorithm 
+
+ALGORITHM:
+
+    1. START the program
+    2. Get the number of processors
+    3. Get the Burst time of each processors
+    4. Get the priority of all the processors
+    5. Sort the processors based on the priority
+    6. Calculation of Turn Around Time and Waiting Time
+        i) tot_TAT = tot_TAT + pre_TAT
+        j) avg_TAT = tot_TAT/num_of_proc
+        k) tot_WT = tot_WT + pre_WT + PRE_BT
+        l) avg_WT = tot_WT/num_of_proc
+    7. Display the result
+    8. STOP the program
+
+
+ROUND ROBIN CPU SCHEDULING ALGORITHM
+
+AIM:
+    To write a program to implement the Round Robin CPU scheduling Algorithm 
+    
+ALGORITHM:
+
+    1. START the program
+    2. Get the number of processors
+    3. Get the Burst time(BT) of each processors
+    4. Get the Quantum time(QT)
+    5. Execute each processor until reach the QT or BT
+    6. Time of reaching processor’s BT is it’s Turn Around Time(TAT)
+    7. Time waits to start the execution, is the waiting time(WT) of each processor 8. Calculation of
+    Turn Around Time and Waiting Time
+        m) tot_TAT = tot_TAT + cur_TAT
+        n) avg_TAT = tot_TAT/num_of_proc
+        o) tot_WT = tot_WT + cur_WT
+        p) avg_WT = tot_WT/num_of_proc
+    9. Display the result
+    10. STOP the program
