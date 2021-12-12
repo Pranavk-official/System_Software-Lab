@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <string.h>
 
+/*
+1. Create filename.c file using given c program below
+2. Create input.txt,optab.txt,symtab.txt files (all file contents are given below)
+3. rum "cc filename.c"
+4. type "./a.out"
+
+*/
 
 void main()
 {
@@ -76,3 +83,49 @@ void main()
     fclose(f1);
     fclose(f3);
 }
+
+
+
+/*
+######################### input.txt ##########################
+
+                    copy    START   1000
+                            LDA     ALPHA
+                            ADD     ONE
+                            SUB     TWO
+                            STA     BETA
+                    ALPHA   BYTE    C'KLNCE
+                    ONE     RESB    2
+                    TWO     WORD    5
+                    BETA    RESW    1
+                    _       END     _
+                    
+######################### optab.txt ###########################
+
+                    LDA     00
+                    STA     23
+                    ADD     01
+                    SUB     05
+
+######################### symtab.txt #########################
+
+
+                    1000    LDA
+
+                    1000    ONE
+
+                    1003    STA
+
+                    1003    BYTE
+
+                    1003    RESB
+
+                    1003    WORD
+
+                    1003    RESW
+
+                    1003    END
+
+*/
+
+
