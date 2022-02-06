@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <string.h>
 #include <ctype.h>
 main()
@@ -7,7 +6,6 @@ main()
     FILE *fint, *ftab, *flen, *fsym;
     int op1[10], txtlen, txtlen1, i, j = 0, len;
     char add[5], symadd[5], op[5], start[10], temp[30], line[20], label[20], mne[10], operand[10], symtab[10], opmne[10];
-    clrscr();
     fint = fopen("input.txt", "r");
     flen = fopen("length.txt", "r");
     ftab = fopen("optab.txt", "r");
@@ -68,7 +66,6 @@ main()
     fclose(fsym);
     fclose(flen);
     // fclose(fout);
-    getch();
 }
 
 
