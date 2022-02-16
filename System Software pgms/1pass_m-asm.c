@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <string.h>
 #include <stdlib.h>
 void main()
@@ -7,7 +6,7 @@ void main()
     FILE *f1, *f2, *f3, *f4, *f5;
     int len, i, pos = 1;
     char arg[20], mne[20], opnd[20], la[20], name[20], mne1[20], opnd1[20], pos1[10], pos2[10];
-    clrscr();
+    
     f1 = fopen("input.txt", "r");
     f2 = fopen("namtab.txt", "w+");
     f3 = fopen("deftab.txt", "w+");
@@ -82,7 +81,6 @@ void main()
     printf("2. namtab.txt\n");
     printf("3. deftab.txt\n");
     printf("4. op.txt\n");
-    getch();
 }
 
 
